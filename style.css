@@ -3,14 +3,21 @@ html{
 }
 header{
     h1{
-        color: rgb(216, 37, 216);;
+        color: rgb(216, 37, 216);
         text-align: center;
     } 
+}
+.menu{
+    background-color: rgb(216, 37, 216);
+    display: grid;
+    text-align: left;
 }
 .contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 .caja{
     background-image: url(https://cdn.wallpapersafari.com/7/32/Iuhdv6.png);
@@ -24,6 +31,25 @@ header{
     border-radius: 5px;
     text-align: center;
 }
+.caja1{
+    background-color: rgb(57, 194, 212);
+    border: 8px  rgb(12, 65, 57);
+    border-radius: 5px;
+    text-align: center;
+}
+.caja2{
+    background-color: rgb(57, 194, 212);
+    border: 8px  rgb(12, 65, 57);
+    border-radius: 5px;
+    text-align: center;
+}
+.caja3{
+    background-color: rgb(57, 194, 212);
+    border: 8px  rgb(12, 65, 57);
+    border-radius: 5px;
+    text-align: center;
+}
+
 .cajab{
     background-image: url(https://cdn.wallpapersafari.com/7/32/Iuhdv6.png);
     border: 8px  rgb(12, 65, 57);
