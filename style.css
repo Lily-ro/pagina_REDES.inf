@@ -2,22 +2,43 @@ html{
     background-color:rgb(27, 32, 51);
 }
 header{
+    background-color: rgb(173, 46, 173);
     h1{
-        color: rgb(216, 37, 216);
         text-align: center;
     } 
 }
-.menu{
-    background-color: rgb(216, 37, 216);
-    display: grid;
-    text-align: left;
+header .menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 1rem;
+}
+header nav ul li{
+    color:rgb(27, 32, 51);
+    text-decoration: none; 
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
 .contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    grid-gap: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    h2{
+        color: rgb(57, 194, 212);
+    }
   }
 .caja{
     background-image: url(https://cdn.wallpapersafari.com/7/32/Iuhdv6.png);
@@ -32,19 +53,19 @@ header{
     text-align: center;
 }
 .caja1{
-    background-color: rgb(57, 194, 212);
+    background-color:  rgb(173, 46, 173);
     border: 8px  rgb(12, 65, 57);
     border-radius: 5px;
     text-align: center;
 }
 .caja2{
-    background-color: rgb(57, 194, 212);
+    background-color: rgb(173, 46, 173);
     border: 8px  rgb(12, 65, 57);
     border-radius: 5px;
     text-align: center;
 }
 .caja3{
-    background-color: rgb(57, 194, 212);
+    background-color: rgb(173, 46, 173);
     border: 8px  rgb(12, 65, 57);
     border-radius: 5px;
     text-align: center;
@@ -74,9 +95,52 @@ header{
     border-radius: 5px;
     text-align: center;
 }
-.cajaf{
-    background-image: url(https://cdn.wallpapersafari.com/7/32/Iuhdv6.png);
+.caja4{
+    background-color:  rgb(173, 46, 173);
     border: 8px  rgb(12, 65, 57);
     border-radius: 5px;
     text-align: center;
+}
+.caja5{
+    background-color:rgb(173, 46, 173);
+    border: 8px  rgb(12, 65, 57);
+    border-radius: 5px;
+    text-align: center;
+}
+.caja6{
+    background-color:rgb(173, 46, 173);
+    border: 8px  rgb(12, 65, 57);
+    border-radius: 5px;
+    text-align: center;
+}
+main .caja1 .caja2 .caja3 .caja4 .caja5 .caja6{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main nav ul{
+    list-style: none;
+    display: flex;
+}
+main nav ul li{
+    margin-left: 1rem;
+}
+main nav ul li{
+    color:rgb(27, 32, 51);
+    text-decoration: none; 
+    font-weight: bold;
+}
+main nav ul li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    height: 40px;
+    background-color:rgb(43, 137, 150);
+    h3{
+        text-align: center;
+    } 
 }
