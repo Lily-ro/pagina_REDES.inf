@@ -6,6 +6,16 @@ header{
     color:#fff;
     text-align: center;
 }
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
+.butons{
+    text-decoration: none;
+    list-style: none;
+    color:#fff; 
+}
 header .menu{
     width: 80%;
     margin: auto;
