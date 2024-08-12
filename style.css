@@ -2,10 +2,9 @@ html{
     background-color:rgb(27, 32, 51);
 }
 header{
-    background-color: rgb(173, 46, 173);
-    h1{
-        text-align: center;
-    } 
+    background: rgb(173, 46, 173);
+    color:#fff;
+    text-align: center;
 }
 header .menu{
     width: 80%;
@@ -13,6 +12,9 @@ header .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header h1{
+ font-size: 2rem;
 }
 header nav ul{
     list-style: none;
@@ -22,20 +24,33 @@ header nav ul li{
     margin-left: 1rem;
 }
 header nav ul li{
-    color:rgb(27, 32, 51);
+    color: #fff;
     text-decoration: none; 
     font-weight: bold;
 }
-header nav ul li a:hover{
-    text-decoration: underline;
+header nav ul li{
+    text-decoration: none;
 }
-
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.butons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .contenedor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     h2{
         color: rgb(57, 194, 212);
     }
